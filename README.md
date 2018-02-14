@@ -1,13 +1,10 @@
 # HEAD
 
-[![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Contributors](https://img.shields.io/github/contributors/joshbuchea/head.svg)](https://github.com/joshbuchea/HEAD/graphs/contributors)
+Un listado con todo lo que podríamos poner en la etiqueta `<head>` de nuestro documento.
 
-A list of everything that \*could\* go in the `<head>` of your document
+## Tabla de contenidos
 
-## Table of Contents
-
-- [Recommended Minimum](#recommended-minimum)
+- [Mínimo recomendado](#minimo-recomendado)
 - [Elements](#elements)
 - [Meta](#meta)
 - [Link](#link)
@@ -39,27 +36,26 @@ A list of everything that \*could\* go in the `<head>` of your document
 - [Author](#author)
 - [License](#license)
 
-## Recommended Minimum
+## Mínimo recomendado
 
-Below are the essential elements for any web document (websites/apps):
+Estos son los elementos esenciales en cualquier documento web (sitios web/aplicaciones):
 
 ```html
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge"> <!-- † -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!--
-  The above 3 meta tags *must* come first in the <head>
-  to consistently ensure proper document rendering.
-  Any other head element should come *after* these tags.
+  Estas tres etiquetas meta *deben* ser lo primero de todo en nuestro <head>
+  para asegurarnos la correcta renderización del documento.
+  Cualquier otro elemento en el <head> puede estar *después* de estos tags.
 
-  † Use the content="ie-edge" tag if your project
-    supports Internet Explorer prior to version 11.
-
+  † Usa la etiqueta content="ie-edge" si tu proyecto soporta una versión
+    anterior a Internet Explorer 11.
  -->
-<title>Page Title</title>
+<title>Título de la página</title>
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ volver arriba](#tabla-de-contenidos)**
 
 ## Elements
 
